@@ -1,47 +1,20 @@
-// import logo from './logo.svg';
-// import './App.css';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-// export default App;
-
 import React from 'react';
-import './App.css'; // Create a Home.css file for your styles
-import Image from '../components/Home/Image';
-import Content from '../components/Home/Content';
-import CustomNavigationBar from '../components/CustomNavigationBar';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './Screens/Home'; // Adjust import path as necessary
+// import AboutMe from './screens/AboutMe'; // Adjust import path as necessary
+import CustomNavigationBar from './Components/CustomNavigationBar'; // Adjust import path as necessary
 
 const App = () => {
   return (
-    <div className="hero-slider">
-      <div className="slide"></div>
-      <div className="left-slide">
-        <Image />
-        <div className="content-cont">
-          <Content />
-        </div>
+    <Router>
+      <div className="App">
+        <CustomNavigationBar /> {/* This would be your custom navigation bar if you want to include it */}
+        <Routes>
+          <Route path="/" element={<Home />} />
+          {/* <Route path="/about-me" element={<AboutMe />} /> */}
+        </Routes>
       </div>
-      <CustomNavigationBar />
-    </div>
+    </Router>
   );
 };
 

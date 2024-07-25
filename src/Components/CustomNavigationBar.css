@@ -1,0 +1,36 @@
+.container {
+    position: absolute;
+    top: 15%;
+    right: 20px;
+    width: 70px;
+    height: 70%;
+    background-color: #007bff; /* Replace with your primary color */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 30px;
+    border-radius: 10px;
+    z-index: 1;
+  }
+  
+  .iconContainer {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 12px 0;
+    cursor: pointer;
+  }
+  
+  .iconContainer:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Optional hover effect */
+  }
+  
+  .lightMode {
+    background-color: #007bff; /* Replace with your primary color */
+  }
+  
+  .nightMode {
+    background-color: #343a40; /* Replace with a different color for night mode */
+  }
+  

@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.info-cont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left, .right {
+    flex: 1;
+}
+
+.modal-subheader {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-weight: 600; /* 'semibold' equivalent */
+}
+
+.modal-text {
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.modal-answer {
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: bold;
+}
