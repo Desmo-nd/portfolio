@@ -1,6 +1,6 @@
 import React from 'react';
 import './PersonalInfo.css'; // Create a PersonalInfo.css file for your styles
-import DownloadCV from '../Home/DownloadCV'; // Make sure this component is compatible with React.js
+import DownloadCV from '../Home/DownloadCVButton'; // Make sure this component is compatible with React.js
 
 const PersonalInfo = () => {
     return (

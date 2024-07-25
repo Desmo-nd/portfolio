@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #35424E;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .modalHeader {
+    font-size: 24px;
+    color: #ffffff;
+    font-family: 'Poppins-Bold', sans-serif; /* Use the appropriate font family */
+    text-align: center;
+    margin: 25px 0;
+  }
+  
+  .gridCont {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  /* Optional styles for the title and subheader */
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .modalSubHeader {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-family: 'Poppins-SemiBold', sans-serif; /* Use the appropriate font family */
+  }
+  
