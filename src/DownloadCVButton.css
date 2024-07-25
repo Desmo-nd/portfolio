@@ -1,0 +1,23 @@
+.container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .button {
+    padding: 8px 10px;
+    border-radius: 20px;
+    border: 1px solid #007bff; /* Replace with your primary color */
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+  }
+  
+  .button:hover {
+    background-color: #007bff; /* Replace with your primary color */
+    color: #ffffff;
+  }
+  
