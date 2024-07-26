@@ -16,8 +16,8 @@ const Content = () => {
   return (
     <div className="container">
       <div className="content">
-        <h1 className="title">I'm Desmond Murangiri</h1>
-        <h1 className="title">I'm a Software Engineer</h1>
+        <h1 className="Header"><span id='am'>I'm</span> Desmond Murangiri</h1>
+        <h1 className="Header">I'm a Software Engineer</h1>
 
         <p className="subhead">
           I am a software engineer with a passion for technology and 
@@ -25,7 +25,7 @@ const Content = () => {
           my skills and build a solid foundation for my career in the 
           technology sector.
         </p>
-        <button onClick={openModal} className="button">
+        <button onClick={openModal} className="butt-on">
           MORE ABOUT ME
         </button>
       </div>
