@@ -12,7 +12,7 @@ const CustomNavigationBar = () => {
   };
 
   return (
-    <div className={`container ${lightMode ? 'lightMode' : 'nightMode'}`}>
+    <div className={`Contdess ${lightMode ? 'lightMode' : 'nightMode'}`}>
       <div className="iconContainer" onClick={toggleMode}>
         <FaMoon size={24} color="white" />
       </div>

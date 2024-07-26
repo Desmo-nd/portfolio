@@ -8,11 +8,11 @@ const AboutMe = () => {
   return (
     <div className="container">
       <h1 className="modalHeader">ABOUT <span style={{color: '#73BE64'}}>ME</span></h1>
-      <CustomNavigationBar />
       <div className="gridCont">
         <PersonalInfo />
         <Grid />
       </div>
+      <CustomNavigationBar />
     </div>
   );
 };
