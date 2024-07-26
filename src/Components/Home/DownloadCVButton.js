@@ -10,7 +10,7 @@ const DownloadCVButton = () => {
   };
 
   return (
-    <div className="container">
+    <div className="cont">
       <button onClick={handleDownloadCV} className="button">
         Download CV
       </button>
