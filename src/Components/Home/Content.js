@@ -33,7 +33,11 @@ const Content = () => {
       {modalVisible && (
         <div className="modal">
           <div className="modal-content">
+            <div className='topNav'>
+            {/* <button onClick={closeModal} className="close-button">Close</button> */}
             <h2 className="modal-header">ABOUT <span className="highlight">ME</span></h2>
+
+            </div>
             <h3 className="modal-subheader">PERSONAL INFO</h3>
             <div className="info-cont">
               <div className="left">
@@ -50,27 +54,27 @@ const Content = () => {
               </div>
             </div>
             <DownloadCv />
-            <div className="grid">
-              <div className="grid-item">
-                <p className="item-num">2+</p>
-                <p className="item-text">Years of Experience</p>
+            <div className="gridcont">
+              <div className="griditem">
+                <p className="itemnum">2+</p>
+                <p className="itemtext">Years of Experience</p>
               </div>
-              <div className="grid-item">
-                <p className="item-num">15+</p>
-                <p className="item-text">Completed Projects</p>
+              <div className="griditem">
+                <p className="itemnum">15+</p>
+                <p className="itemtext">Completed Projects</p>
               </div>
-              <div className="grid-item">
-                <p className="item-num">7</p>
-                <p className="item-text">Happy Customers</p>
+              <div className="griditem">
+                <p className="itemnum">7</p>
+                <p className="itemtext">Happy Customers</p>
               </div>
-              <div className="grid-item">
-                <p className="item-num">1</p>
-                <p className="item-text">Awards</p>
+              <div className="griditem">
+                <p className="itemnum">1</p>
+                <p className="itemtext">Awards</p>
               </div>
             </div>
-            <button onClick={closeModal} className="close-button">
+            {/* <button onClick={closeModal} className="close-button">
               Close
-            </button>
+            </button> */}
           </div>
         </div>
       )}
