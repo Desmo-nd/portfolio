@@ -1,4 +1,4 @@
-.container {
+.contain {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -164,9 +164,9 @@
 
   }
   
-  .topNav {
-    /* display: flex; */
-  }
+  /* .topNav {
+    display: flex;
+  } */
   /* .close-button{
     height: 20px;
     text-align: center;

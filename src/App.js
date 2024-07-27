@@ -12,7 +12,7 @@ const App = () => {
         <CustomNavigationBar /> {/* This would be your custom navigation bar if you want to include it */}
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about-me" element={<AboutMe />} />
+          <Route path="/aboutme" element={<AboutMe />} />
         </Routes>
       </div>
     </Router>

@@ -4,7 +4,7 @@
     right: 20px;
     width: 70px;
     height: 70%;
-    background-color: #007bff; /* Replace with your primary color */
+    background-color: #007bff; 
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -22,14 +22,14 @@
   }
   
   .iconContainer:hover {
-    background-color: rgba(0, 0, 0, 0.1); /* Optional hover effect */
+    background-color: rgba(0, 0, 0, 0.1); 
   }
   
   .lightMode {
-    background-color: #ff6347; /* Replace with your primary color */
+    background-color: #ff6347; 
   }
   
   .nightMode {
-    background-color: #343a40; /* Replace with a different color for night mode */
+    background-color: #35424E; 
   }
-  
+  /* 343a40 */

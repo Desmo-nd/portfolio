@@ -14,7 +14,7 @@ const Content = () => {
   };
 
   return (
-    <div className="container">
+    <div className="contain">
       <div className="content">
         <h1 className="Header"><span id='am'>I'm</span> Desmond Murangiri</h1>
         <h1 className="Header">I'm a Software Engineer</h1>
