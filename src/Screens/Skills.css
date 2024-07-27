@@ -1,0 +1,33 @@
+.about-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7); 
+    width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  .header {
+    font-size: 60px;
+    font-family: 'Poppins-Bold';
+    color: #fff;
+    margin-top: 20px;
+  }
+  
+  .personal-info-container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .navbar-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    z-index: 1;
+  }
+  

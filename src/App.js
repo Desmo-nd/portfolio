@@ -1,8 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './Screens/Home'; // Adjust import path as necessary
-import AboutMe from './Screens/AboutMe'; // Adjust import path as necessary
-import CustomNavigationBar from './Components/CustomNavigationBar'; // Adjust import path as necessary
+import Home from './Screens/Home'; 
+import AboutMe from './Screens/AboutMe'; 
+import Skills from './Screens/Skills';
+import CustomNavigationBar from './Components/CustomNavigationBar'; 
 import './fonts.css'; // Import custom fonts CSS
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
         <Routes>
           <Route path="Home" element={<Home />} />
           <Route path="/aboutme" element={<AboutMe />} />
+          <Route path="/Skills" element={<Skills />} />
         </Routes>
       </div>
     </Router>
