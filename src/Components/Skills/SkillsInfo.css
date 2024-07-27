@@ -1,7 +1,6 @@
 .skills-container {
   background: rgba(0, 0, 0, 0.8); 
   width: 100%;
-  height: 100vh;
   padding: 20px;
   box-sizing: border-box;  
   color: #fff;
@@ -45,7 +44,6 @@
 }
 
 .skills-content {
-  text-align: center;
   margin-top: 30px;
 }
 
@@ -58,8 +56,10 @@
 
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
+  max-width: 1000px;
+  margin: auto;
 }
 
 .skill-item {
@@ -71,7 +71,7 @@
 
 .skill-level {
   font-size: 24px;
-  color: #a0a;
+  color: #ff6347;
 }
 
 .skill-name {
@@ -79,14 +79,50 @@
   font-size: 16px;
 }
 
-.footer {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 20px;
+.skills-experience{
+
 }
 
-.footer div {
-  background-color: #333;
+.itemOne{
+  display: flex;
+  max-width: 1000px; 
+  margin: auto; 
+}
+
+.itemContent{
+  width: 40%;
+  background-color: #111;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 10px;
+  margin-bottom: 25px
+}
+#subHead{
+  font-size: 24px;
+  color: #ff6347;
+  margin-bottom: 10px;
+  font-family: 'Poppins-Bold';
+}
+#textN{
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 10px;
+  font-family: 'Poppins-regular';
+}
+.left{
+
+}
+.left1{
+  width: 10%;
+  border-left: #ff6347 solid 2px;
+  margin-bottom: 25px
+
+  
+}
+.left2{
+  width: 10%;
+  border-left: #fff solid 2px;
+  /* margin-left: 58px; */
+  margin-left: 5.8%;
+  margin-bottom: 25px
+
 }
