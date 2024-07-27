@@ -3,19 +3,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #ffffff; 
+  background: rgba(0, 0, 0, 0.7); 
   width: 100%;
   min-height: 100vh;
   box-sizing: border-box;
 }
 
 .header {
-  font-size: 24px;
-  color: #000;
-  font-family: 'Poppins-Bold', sans-serif;
-  text-align: center;
-  margin: 25px 0;
-  z-index: 1;
+  font-size: 60px;
+  font-family: 'Poppins-Bold';
+  color: #fff;
+  margin-top: 20px;
 }
 
 .personal-info-container {
