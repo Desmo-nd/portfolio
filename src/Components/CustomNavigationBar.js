@@ -25,7 +25,7 @@ const CustomNavigationBar = () => {
       <div className="iconContainer" onClick={() => navigate('/Skills')}>
         <FaSchool size={24} color="white" />
       </div>
-      <div className="iconContainer" onClick={() => navigate('/image')}>
+      <div className="iconContainer" onClick={() => navigate('/Works')}>
         <FaImage size={24} color="white" />
       </div>
       <div className="iconContainer" onClick={() => navigate('/send')}>

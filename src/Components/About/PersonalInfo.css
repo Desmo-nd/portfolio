@@ -9,7 +9,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 1000px;
+    /* max-width: 1000px; */
+    width: 82%;
     margin: 0 auto;
   }
   .modalHeader{
@@ -20,7 +21,7 @@
   }
   .contain {
     flex-direction: column;
-    width: 100%;
+    width: 60%;
     color: #fff;
   }
   .content{
@@ -39,7 +40,7 @@
   }
   
   .modalsubheader {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 20px;
     color: #fff;
     text-align: center;
@@ -48,7 +49,7 @@
   }
   
   .modaltext {
-    font-size: 15px;
+    font-size: 13px;
     margin-bottom: 20px;
     color: #e6d3d3;
     font-family: 'Poppins-semibold';
@@ -56,7 +57,7 @@
   }
   
   .modal-answer {
-    font-size: 15px;
+    font-size: 14px;
     color: #fff;
     font-family: 'Poppins-Bold';
 
